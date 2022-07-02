@@ -10,8 +10,8 @@ spec:
   project: production
   source:
     chart: kube-prometheus-stack
-    repoURL: https://github.com/prometheus-community/helm-charts/tree/main/charts
-    targetRevision: 23.3.1
+    repoURL: https://prometheus-community.github.io/helm-charts
+    targetRevision: 36.2.1
     helm:
       values: |
         fullnameOverride: prometheus
