@@ -9,8 +9,11 @@ spec:
   project: production
   source:
     chart: kube-prometheus-stack
-    repoURL: https://prometheus-community.github.io/helm-charts
+    repoURL: 'https://prometheus-community.github.io/helm-charts'
     targetRevision: 37.3.0
+    helm:
+      values: |-
+        #Snip the values
   destination:
     namespace: production
     server: https://kubernetes.default.svc
