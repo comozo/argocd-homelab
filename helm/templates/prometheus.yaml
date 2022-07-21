@@ -9,7 +9,7 @@ spec:
   project: production
   source:
     chart: kube-prometheus-stack
-    repoURL: https://prometheus-community.github.io/helm-charts
+    repoURL: https://github.com/prometheus-community/helm-charts.git
     targetRevision: 37.3.0
   destination:
     namespace: production
